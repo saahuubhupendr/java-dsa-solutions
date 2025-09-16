@@ -2,7 +2,7 @@ package Array;
 
 public class ContainerWithMostWater {
 
-    // 🔹 Brute Force Approach (O(n^2))
+    // Brute Force Approach (O(n^2))
     public static int maxAreaBruteForce(int[] height) {
         int maxWater = 0;
         int n = height.length;
@@ -18,7 +18,7 @@ public class ContainerWithMostWater {
         return maxWater;
     }
 
-    // 🔹 Optimal Two-Pointer Approach (O(n))
+    // Optimal Two-Pointer Approach (O(n))
     public static int maxArea(int[] height) {
         int maxWater = 0;
         int lp = 0, rp = height.length - 1;
@@ -38,7 +38,7 @@ public class ContainerWithMostWater {
         return maxWater;
     }
 
-    // 🔹 Main Method for Testing
+    // Main Method for Testing
     public static void main(String[] args) {
         int[] height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
 
