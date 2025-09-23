@@ -1,8 +1,10 @@
 package Array;
 
+
+
 import java.util.*;
 
-class Solution {
+class IntersectionofTwoArrays {
     public int[] intersect(int[] nums1, int[] nums2) {
         // Store frequencies of nums1
         Map<Integer, Integer> map = new HashMap<>();
@@ -28,9 +30,9 @@ class Solution {
 
     // Testing
     public static void main(String[] args) {
-        Solution sol = new Solution();
-        int[] nums1 = {1,2,2,1};
-        int[] nums2 = {2,2};
+        IntersectionofTwoArrays sol = new IntersectionofTwoArrays();  // ✅ fixed
+        int[] nums1 = {1, 2, 2, 1};
+        int[] nums2 = {2, 2};
         System.out.println(Arrays.toString(sol.intersect(nums1, nums2))); // [2, 2]
     }
 }
