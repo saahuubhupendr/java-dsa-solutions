@@ -13,6 +13,7 @@ public class FindAllNumbersDisappearedInAnArray {
             int index = Math.abs(nums[i]) - 1;  // correct index
             if (nums[index] > 0) {
                 nums[index] = -nums[index];  // mark as visited
+
             }
         }
 
