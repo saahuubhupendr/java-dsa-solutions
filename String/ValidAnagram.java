@@ -15,6 +15,7 @@ public class ValidAnagram {
         return Arrays.equals(arr1, arr2);
     }
 
+    //main method
     public static void main(String[] args) {
         System.out.println(isAnagram("listen", "silent")); // true
         System.out.println(isAnagram("rat", "car"));       // false
