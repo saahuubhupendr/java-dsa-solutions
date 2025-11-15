@@ -2,7 +2,7 @@ package Array;
 
 public class ContainerWithMostWater { 
 
-    // Brute Force Approach (O(n^2)) 
+    // Brute Force Approach (O(n^2))
     public static int maxAreaBruteForce(int[] height) {
         int maxWater = 0;
         int n = height.length;
