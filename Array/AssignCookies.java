@@ -2,7 +2,7 @@ package Array;
 
 
 
-import java.util.Arrays; 
+import java.util.Arrays;
 
 public class AssignCookies {
     public int findContentChildren(int[] g, int[] s) {
