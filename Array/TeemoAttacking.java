@@ -1,6 +1,6 @@
 package Array;
 
-// Teemo Attacking - LeetCode 495
+// Teemo Attacking - LeetCode 495 
 public class TeemoAttacking {
 
     public int findPoisonedDuration(int[] timeSeries, int duration) {
