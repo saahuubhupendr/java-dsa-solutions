@@ -5,7 +5,7 @@ public class ValidAnagram {
         if (s == null || t == null) return s == t;
         if (s.length() != t.length()) return false;
 
-        int[] counts = new int[26];
+        int[] counts = new int[26]; 
         for (int i = 0; i < s.length(); i++) {
             counts[s.charAt(i) - 'a']++;
             counts[t.charAt(i) - 'a']--;
