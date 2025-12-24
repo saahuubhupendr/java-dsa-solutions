@@ -3,7 +3,7 @@ package Array;
 public class MissingNumber {
     public static int missingNumber(int[] nums) {
         int n = nums.length;
-        // Formula sum of 0 to n 
+        // Formula sum of 0 to n
         int totalSum = n * (n + 1) / 2;
 
         int arrSum = 0;
