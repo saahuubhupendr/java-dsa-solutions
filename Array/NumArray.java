@@ -3,7 +3,7 @@ package Array;
 class Code {
     private int[] prefix;
 
-    // Constructor → preprocess prefix sums
+    // Constructor → preprocess prefix sums 
     public Code(int[] nums) {
         prefix = new int[nums.length + 1];  // one extra space
         for (int i = 0; i < nums.length; i++) {
