@@ -2,7 +2,7 @@ package Array;
 
 
 
-import java.util.*;
+import java.util.*; 
 
 class IntersectionofTwoArrays {
     public int[] intersect(int[] nums1, int[] nums2) {
