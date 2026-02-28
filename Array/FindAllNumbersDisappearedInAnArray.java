@@ -8,7 +8,7 @@ public class FindAllNumbersDisappearedInAnArray {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         List<Integer> result = new ArrayList<>();
 
-        // Step 1: Mark visited numbers 
+        // Step 1: Mark visited numbers
         for (int i = 0; i < nums.length; i++) {
             int index = Math.abs(nums[i]) - 1;  // correct index
             if (nums[index] > 0) {
