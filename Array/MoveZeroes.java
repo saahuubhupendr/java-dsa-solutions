@@ -13,7 +13,7 @@ public class MoveZeroes {
             }
         }
 
-        // Step 2 Fill remaining with zeros
+        // Step 2 Fill remaining with zeros 
         while (lastNonZero < nums.length) {
             nums[lastNonZero++] = 0;
         }
