@@ -1,6 +1,6 @@
 package String;
 
-public class RansomNote {
+public class RansomNote { 
 
         public boolean canConstruct(String ransomNote, String magazine) { 
             int[] freq = new int[26];
