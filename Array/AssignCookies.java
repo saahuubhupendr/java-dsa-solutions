@@ -4,7 +4,7 @@ package Array;
 
 import java.util.Arrays;
 
-public class AssignCookies {
+public class AssignCookies { 
     public int findContentChildren(int[] g, int[] s) {
         // Sort greed factors and cookie sizes
         Arrays.sort(g);
