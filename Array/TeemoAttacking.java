@@ -1,7 +1,7 @@
 package Array;
 
 // Teemo Attacking - LeetCode 495 
-public class TeemoAttacking {
+public class TeemoAttacking { 
 
     public int findPoisonedDuration(int[] timeSeries, int duration) {
         if (timeSeries == null || timeSeries.length == 0 || duration <= 0) return 0;
