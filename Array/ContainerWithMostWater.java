@@ -20,7 +20,7 @@ public class ContainerWithMostWater {
 
     // Optimal Two-Pointer Approach (O(n))
     public static int maxArea(int[] height) {
-        int maxWater = 0;
+        int maxWater = 0; 
         int lp = 0, rp = height.length - 1;
 
         while (lp < rp) {
