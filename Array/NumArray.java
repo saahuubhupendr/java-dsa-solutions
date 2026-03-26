@@ -5,7 +5,7 @@ class Code {
 
     // Constructor → preprocess prefix sums
     public Code(int[] nums) {
-        prefix = new int[nums.length + 1];  // one extra space
+        prefix = new int[nums.length + 1];  // one extra space 
         for (int i = 0; i < nums.length; i++) {
             prefix[i + 1] = prefix[i] + nums[i];
         }
