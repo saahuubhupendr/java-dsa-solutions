@@ -12,7 +12,7 @@ public class RansomNote {
             for (char c : ransomNote.toCharArray()) {
                 if (freq[c - 'a'] == 0) {
                     return false;
-                }
+                } 
                 freq[c - 'a']--;
             }
 
