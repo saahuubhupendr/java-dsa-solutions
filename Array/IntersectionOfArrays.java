@@ -4,7 +4,7 @@ import java.util.*;
 
 public class IntersectionOfArrays {
 
-    // Function to find intersection 
+    // Function to find intersection
     public static int[] intersection(int[] nums1, int[] nums2) {
 
         // Step 1: Store nums1 elements in a set
