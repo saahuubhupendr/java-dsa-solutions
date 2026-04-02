@@ -11,7 +11,7 @@ public class ValidAnagram {
             counts[t.charAt(i) - 'a']--;
         }
 
-        for (int c : counts) { 
+        for (int c : counts) {
             if (c != 0) return false;
         }
         return true;
