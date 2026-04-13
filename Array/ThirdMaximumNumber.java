@@ -6,7 +6,7 @@ public class ThirdMaximumNumber {
     public static int thirdMax(int[] nums) {
         Long first = null, second = null, third = null;
 
-        for (int n : nums) {
+        for (int n : nums) { 
             long num = n;
 
             // Skip duplicates
