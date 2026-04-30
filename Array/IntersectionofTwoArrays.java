@@ -16,11 +16,11 @@ class IntersectionofTwoArrays {
         for (int num : nums2) {
             if (map.containsKey(num) && map.get(num) > 0) {
                 result.add(num);
-                map.put(num, map.get(num) - 1);  // reduce frequency
+                map.put(num, map.get(num) - 1);  // redunce frequency 
             }
         }
 
-        // Convert List to int[]
+        // Convert List to int[] 
         int[] ans = new int[result.size()];
         for (int i = 0; i < result.size(); i++) {
             ans[i] = result.get(i);
