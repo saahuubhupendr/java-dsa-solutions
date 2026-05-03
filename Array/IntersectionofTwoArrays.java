@@ -13,7 +13,7 @@ class IntersectionofTwoArrays {
         }
 
         List<Integer> result = new ArrayList<>();
-        for (int num : nums2) {
+        for (int num : nums2) { 
             if (map.containsKey(num) && map.get(num) > 0) {
                 result.add(num);
                 map.put(num, map.get(num) - 1);  // redunce frequency 
