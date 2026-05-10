@@ -10,7 +10,7 @@ public class FindAllNumbersDisappearedInAnArray {
 
         // Step 1: Mark visited numbers 
         for (int i = 0; i < nums.length; i++) {
-            int index = Math.abs(nums[i]) - 1;  // correct index
+            int index = Math.abs(nums[i]) - 1;  // correct index 
             if (nums[index] > 0) {
                 nums[index] = -nums[index];  // mark as visited
 
