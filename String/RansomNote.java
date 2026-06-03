@@ -13,7 +13,7 @@ public class RansomNote {
                 if (freq[c - 'a'] == 0) {
                     return false;
                 } 
-                freq[c - 'a']--;
+                freq[c - 'a']--; 
             }
 
             return true;
