@@ -1,4 +1,4 @@
-package Array;
+package String;
 
 public class LeetCode1832_CheckIfTheSentenceIsPangram {
 

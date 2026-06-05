@@ -1,6 +1,6 @@
 package String;
 
-public class RansomNote { 
+public class LeetCode383_RansomNote {
 
         public boolean canConstruct(String ransomNote, String magazine) { 
             int[] freq = new int[26];
@@ -20,7 +20,7 @@ public class RansomNote {
         }
 
         public static void main(String[] args) {
-            RansomNote sol = new RansomNote();
+            LeetCode383_RansomNote sol = new LeetCode383_RansomNote();
 
             String ransomNote = "aa";
             String magazine = "aab";

@@ -2,7 +2,7 @@ package String;
 
 import java.util.Arrays;
 
-public class ValidAnagram {
+public class LeetCode242_ValidAnagram {
     public static boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
 
