@@ -1,6 +1,6 @@
 package Array;
 
-public class IslandPerimeter {
+public class LeetCode463_IslandPerimeter {
 
     // Returns the perimeter of the island in the grid
     public static int islandPerimeter(int[][] grid) {

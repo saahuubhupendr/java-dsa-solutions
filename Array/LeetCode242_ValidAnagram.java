@@ -1,6 +1,6 @@
 package Array;
 
-public class ValidAnagram { 
+public class LeetCode242_ValidAnagram {
     public boolean isAnagram(String s, String t) {
         if (s == null || t == null) return s == t;
         if (s.length() != t.length()) return false;
@@ -19,7 +19,7 @@ public class ValidAnagram {
 
 
     public static void main(String[] args) {
-        ValidAnagram sol = new ValidAnagram();
+        LeetCode242_ValidAnagram sol = new LeetCode242_ValidAnagram();
         System.out.println(sol.isAnagram("anagram", "nagaram"));
         System.out.println(sol.isAnagram("rat", "car"));
     }

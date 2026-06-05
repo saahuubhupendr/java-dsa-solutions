@@ -1,6 +1,6 @@
 package Array;
 
-public class MissingNumber {
+public class LeetCode268_MissingNumber {
     public static int missingNumber(int[] nums) {
         int n = nums.length;
         // Formula sum of 0 to n

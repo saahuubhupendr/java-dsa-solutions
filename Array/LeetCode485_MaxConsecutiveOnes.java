@@ -1,6 +1,6 @@
 package Array;
 
-public class MaxConsecutiveOnes {
+public class LeetCode485_MaxConsecutiveOnes {
     public static int findMaxConsecutiveOnes(int[] nums) {
         int count = 0, maxCount = 0;
 

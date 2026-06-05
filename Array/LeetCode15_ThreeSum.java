@@ -2,7 +2,7 @@ package Array;
 
 import java.util.*;
 
-public class ThreeSum {
+public class LeetCode15_ThreeSum {
     public static List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         Arrays.sort(nums); // Step 1 Sort array

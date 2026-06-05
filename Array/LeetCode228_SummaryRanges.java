@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SummaryRanges { 
+public class LeetCode228_SummaryRanges {
 
 
     public  static List<String> summaryRanges(int[] nums){

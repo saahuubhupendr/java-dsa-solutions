@@ -1,6 +1,6 @@
 package Array;
 
-public class MoveZeroes {
+public class LeetCode283_MoveZeroes {
     public static void moveZeroes(int[] nums) {
         if (nums == null || nums.length == 0) return;
 

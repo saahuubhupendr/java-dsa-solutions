@@ -2,7 +2,7 @@ package Array;
 
 import java.util.*; 
 
-public class IntersectionOfArrays {
+public class LeetCode349_IntersectionOfArrays {
 
     // Function to find intersection
     public static int[] intersection(int[] nums1, int[] nums2) {

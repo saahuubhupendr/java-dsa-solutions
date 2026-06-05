@@ -1,7 +1,7 @@
 package Array;
 
 // Teemo Attacking - LeetCode 495 
-public class TeemoAttacking { 
+public class LeetCode495_TeemoAttacking {
 
     public int findPoisonedDuration(int[] timeSeries, int duration) {
         if (timeSeries == null || timeSeries.length == 0 || duration <= 0) return 0;
@@ -29,7 +29,7 @@ public class TeemoAttacking {
 
     // Simple test
     public static void main(String[] args) {
-        TeemoAttacking solver = new TeemoAttacking();
+        LeetCode495_TeemoAttacking solver = new LeetCode495_TeemoAttacking();
 
         int[] attacks1 = {1, 4};
         System.out.println(solver.findPoisonedDuration(attacks1, 2)); // expected 4

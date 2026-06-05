@@ -4,7 +4,7 @@ package Array;
 
 import java.util.*; 
 
-class IntersectionofTwoArrays {
+class LeetCode350_IntersectionOfTwoArrays {
     public int[] intersect(int[] nums1, int[] nums2) {
         // Store frequencies of nums1
         Map<Integer, Integer> map = new HashMap<>();
@@ -30,7 +30,7 @@ class IntersectionofTwoArrays {
 
     // Testing
     public static void main(String[] args) {
-        IntersectionofTwoArrays sol = new IntersectionofTwoArrays();  // ✅ fixed
+        LeetCode350_IntersectionOfTwoArrays sol = new LeetCode350_IntersectionOfTwoArrays();  // ✅ fixed
         int[] nums1 = {1, 2, 2, 1};
         int[] nums2 = {2, 2};
         System.out.println(Arrays.toString(sol.intersect(nums1, nums2))); // [2, 2]

@@ -4,7 +4,7 @@ package Array;
 
 import java.util.Arrays;
 
-public class AssignCookies { 
+public class LeetCode455_AssignCookies {
     public int findContentChildren(int[] g, int[] s) {
         // Sort greed factors and cookie sizes 
         Arrays.sort(g);
@@ -26,7 +26,7 @@ public class AssignCookies {
 
     // Example run
     public static void main(String[] args) {
-        AssignCookies sol = new AssignCookies();
+        LeetCode455_AssignCookies sol = new LeetCode455_AssignCookies();
         int[] g = {1, 2, 3};
         int[] s = {1, 1};
         System.out.println(sol.findContentChildren(g, s)); // Output → 1

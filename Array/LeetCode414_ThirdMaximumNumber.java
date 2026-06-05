@@ -1,8 +1,6 @@
 package Array;
 
-import java.util.*;
-
-public class ThirdMaximumNumber {
+public class LeetCode414_ThirdMaximumNumber {
     public static int thirdMax(int[] nums) {
         Long first = null, second = null, third = null;
 

@@ -1,6 +1,6 @@
 package Array;
 
-public class ContainerWithMostWater {
+public class LeetCode11_ContainerWithMostWater {
 
     // Brute Force Approach (O(n^2))
     public static int maxAreaBruteForce(int[] height) {

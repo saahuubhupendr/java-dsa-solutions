@@ -1,6 +1,6 @@
 package Array;
 
-public class LC724PivotIndex {
+public class LeetCode724_PivotIndex {
 
     public static int pivotIndex(int[] nums) {
 

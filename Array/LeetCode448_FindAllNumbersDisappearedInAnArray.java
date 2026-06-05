@@ -4,7 +4,7 @@ package Array;
 
 import java.util.*;
 
-public class FindAllNumbersDisappearedInAnArray {
+public class LeetCode448_FindAllNumbersDisappearedInAnArray {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         List<Integer> result = new ArrayList<>();
 
@@ -29,7 +29,7 @@ public class FindAllNumbersDisappearedInAnArray {
 
     // Test code
     public static void main(String[] args) {
-        FindAllNumbersDisappearedInAnArray sol = new FindAllNumbersDisappearedInAnArray();
+        LeetCode448_FindAllNumbersDisappearedInAnArray sol = new LeetCode448_FindAllNumbersDisappearedInAnArray();
         int[] nums = {4,3,2,7,8,2,3,1};
         System.out.println(sol.findDisappearedNumbers(nums)); // [5, 6]
     }
