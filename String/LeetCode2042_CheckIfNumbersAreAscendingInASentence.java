@@ -1,3 +1,16 @@
+/*
+LeetCode 2042 - Check if Numbers Are Ascending in a Sentence
+
+Approach:
+- Split the sentence into tokens.
+- Extract numeric tokens.
+- Compare each number with the previous one.
+- If any number is not strictly greater than the previous number, return false.
+
+Time Complexity: O(n)
+Space Complexity: O(n)
+*/
+
 package String;
 
 public class LeetCode2042_CheckIfNumbersAreAscendingInASentence {
