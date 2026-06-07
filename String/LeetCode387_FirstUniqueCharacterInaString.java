@@ -1,4 +1,4 @@
-package Array;
+package String;
 
 public class LeetCode387_FirstUniqueCharacterInaString {
 
