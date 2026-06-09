@@ -1,3 +1,16 @@
+/*
+Problem: LeetCode 443 - String Compression
+
+Approach:
+- Traverse the character array and count consecutive repeating characters.
+- Write the character to the same array using a write pointer.
+- If the count is greater than 1, convert the count to a string and write each digit separately.
+- Return the length of the compressed array.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
 package String;
 
 public class LeetCode443_StringCompression {
