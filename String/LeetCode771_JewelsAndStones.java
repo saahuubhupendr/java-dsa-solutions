@@ -1,3 +1,14 @@
+/*
+LeetCode 771 - Jewels and Stones
+
+Approach:
+- Compare each jewel with every stone using nested loops.
+- Count matching characters.
+
+Time Complexity: O(J * S)
+Space Complexity: O(1)
+*/
+
 package String;
 
 public class LeetCode771_JewelsAndStones {
