@@ -1,3 +1,19 @@
+/* LeetCode 657 - Robot Return to Origin
+
+Approach:
+- Track robot position using x and y coordinates.
+- Traverse the moves string once.
+- Update coordinates based on each move:
+  U -> y++
+  D -> y--
+  R -> x++
+  L -> x--
+- After all moves, check if the robot returns to the origin (0,0).
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
 package String;
 
 public class LeetCode657_RobotReturnToOrigin {
