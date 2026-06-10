@@ -1,3 +1,15 @@
+/*
+Problem: LeetCode 75 - Sort Colors
+
+Approach:
+- Used Dutch National Flag Algorithm.
+- Maintained three pointers: low, mid, and high.
+- Placed 0s at the beginning, 2s at the end, and kept 1s in the middle.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
 package Array;
 
 public class LeetCode75_SortColors {
