@@ -1,4 +1,4 @@
-package String;
+package Array;
 
 public class LeetCode75_SortColors {
 
