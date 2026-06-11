@@ -4,7 +4,7 @@ class NumArray {
 
     private int[] prefix;
 
-    // Constructor
+    // Constructor 
     public NumArray(int[] nums) {
 
         prefix = new int[nums.length + 1];
