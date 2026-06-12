@@ -4,7 +4,7 @@ public class LeetCode2062_CountVowelSubstringsOfAString {
 
     public int countVowelSubstrings(String word) {
 
-        int count = 0;
+        int count = 0; 
 
         // Try every possible starting index
         for (int start = 0; start < word.length(); start++) {
