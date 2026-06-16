@@ -17,7 +17,7 @@ public class LeetCode1832_CheckIfTheSentenceIsPangram {
             }
         }
 
-        return count == 26;
+        return count == 26; 
     }
 
     public static void main(String[] args) {
