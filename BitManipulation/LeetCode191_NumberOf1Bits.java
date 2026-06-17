@@ -7,7 +7,7 @@ Approach:
 - Used unsigned right shift (>>>) to process all bits.
 - Continued until all bits were checked.
 
-Time Complexity: O(32) ≈ O(1)
+Time Complexity: O(32) ≈ O(1) 
 Space Complexity: O(1)
 */ 
 
