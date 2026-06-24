@@ -13,7 +13,7 @@ public class LeetCode1832_CheckIfTheSentenceIsPangram {
 
             if (attend[idx] == false) {
                 attend[idx] = true;
-                count++;
+                count++; 
             }
         }
 
