@@ -6,7 +6,7 @@ public class LeetCode976_LargestPerimeterTriangle {
 
     public static int largestPerimeter(int[] nums) {
 
-        Arrays.sort(nums);
+        Arrays.sort(nums); 
 
         for (int i = nums.length - 1; i >= 2; i--) {
 
