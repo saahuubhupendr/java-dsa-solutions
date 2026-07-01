@@ -1,6 +1,6 @@
 package Sorting; 
 
-import java.util.Arrays;
+import java.util.Arrays; 
 
 public class LeetCode1365_HowManyNumbersAreSmallerThanTheCurrentNumber {
 
