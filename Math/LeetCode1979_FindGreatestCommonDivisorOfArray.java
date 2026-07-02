@@ -1,6 +1,6 @@
 package Math;
 
-public class LeetCode1979_FindGreatestCommonDivisorOfArray {
+public class LeetCode1979_FindGreatestCommonDivisorOfArray { 
 
     public static int findGCD(int[] nums) {
 
