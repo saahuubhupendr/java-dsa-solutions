@@ -21,7 +21,7 @@ public class LeetCode191_NumberOf1Bits {
 
         while (n != 0) {
 
-            count += (n & 1);
+            count += (n & 1); 
 
             n >>>= 1;
         }
