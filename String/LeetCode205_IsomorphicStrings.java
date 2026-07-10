@@ -1,6 +1,6 @@
 package String;
 
-import java.util.HashMap; 
+import java.util.HashMap;
 
 public class LeetCode205_IsomorphicStrings {
     public static boolean isIsomorphic(String s, String t) {
