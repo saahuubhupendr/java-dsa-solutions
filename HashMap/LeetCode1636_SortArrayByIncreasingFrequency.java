@@ -7,7 +7,7 @@ import java.util.Map;
 public class LeetCode1636_SortArrayByIncreasingFrequency {
 
     static int[] frequencySort(int[] nums) {
-
+ 
         Map<Integer, Integer> map = new HashMap<>();
 
         for (int num : nums) {
