@@ -5,7 +5,7 @@ public class LeetCode1832_CheckIfTheSentenceIsPangram {
     public static boolean checkIfPangram(String sentence) {
 
         boolean[] attend = new boolean[26];
-        int count = 0;
+        int count = 0; 
 
         for (int i = 0; i < sentence.length(); i++) {
 
