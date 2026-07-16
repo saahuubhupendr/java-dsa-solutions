@@ -11,7 +11,7 @@ Time Complexity: O(32) ≈ O(1)
 Space Complexity: O(1)
 */ 
 
-package BitManipulation;
+package BitManipulation; 
 
 public class LeetCode191_NumberOf1Bits {
 
