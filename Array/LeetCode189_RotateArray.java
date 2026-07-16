@@ -8,7 +8,7 @@ public class LeetCode189_RotateArray {
 
         int n = nums.length;
 
-        k = k % n;
+        k = k % n; 
 
         // Reverse the entire array
         reverse(nums, 0, n - 1);
