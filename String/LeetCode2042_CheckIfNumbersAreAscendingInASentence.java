@@ -7,7 +7,7 @@ Approach:
 5. If current <= previous, return false.
 6. Otherwise update previous and continue.
 
-Time Complexity: O(n)
+Time Complexity: O(n) 
 Space Complexity: O(n)
 */
 
