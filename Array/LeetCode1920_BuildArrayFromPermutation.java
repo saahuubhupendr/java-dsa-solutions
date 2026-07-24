@@ -11,7 +11,7 @@ public class LeetCode1920_BuildArrayFromPermutation {
             ans[i] = nums[nums[i]];
         }
 
-        return ans;
+        return ans; 
     }
 
     public static void main(String[] args) {
