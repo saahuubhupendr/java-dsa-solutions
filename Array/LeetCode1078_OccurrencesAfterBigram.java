@@ -9,7 +9,7 @@ public class LeetCode1078_OccurrencesAfterBigram {
     public static String[] findOcurrences(String text, String first, String second) {
 
         String[] words = text.split(" ");
-        List<String> result = new ArrayList<>();
+        List<String> result = new ArrayList<>(); 
 
         for (int i = 0; i < words.length - 2; i++) {
 
