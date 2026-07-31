@@ -20,7 +20,7 @@ public class LeetCode412_FizzBuzz {
                 answer.add("Fizz");
 
             } else if (i % 5 == 0) {
-
+ 
                 answer.add("Buzz");
 
             } else {
