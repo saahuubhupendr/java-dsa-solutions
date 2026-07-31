@@ -3,7 +3,7 @@ package Array;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LeetCode412FizzBuzz {
+public class LeetCode412_FizzBuzz {
 
     public static List<String> fizzBuzz(int n) {
 
