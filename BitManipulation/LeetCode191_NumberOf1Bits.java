@@ -1,7 +1,7 @@
 /*
 Problem: LeetCode 191 - Number of 1 Bits
 
-Approach:
+Approach: 
 - Checked the last bit using (n & 1).
 - If the bit is 1, incremented the count.
 - Used unsigned right shift (>>>) to process all bits.
