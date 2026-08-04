@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Arrays;
 
-public class LeetCode73SetMatrixZeroes {
+public class LeetCode73_SetMatrixZeroes {
 
     public static void setZeroes(int[][] matrix) {
 
