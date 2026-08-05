@@ -13,7 +13,7 @@ public class LeetCode1657_DetermineIfTwoStringsAreClose {
         int[] freq1 = new int[26];
         int[] freq2 = new int[26];
 
-        // Count character frequencies
+        // Count character frequencie
         for (int i = 0; i < word1.length(); i++) {
             freq1[word1.charAt(i) - 'a']++;
         }
