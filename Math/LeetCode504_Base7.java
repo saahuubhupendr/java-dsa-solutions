@@ -5,7 +5,7 @@ public class LeetCode504_Base7 {
     public String convertToBase7(int num) {
 
         if (num == 0) {
-            return "0";
+            return "0"; 
         }
 
         boolean isNegative = num < 0;
