@@ -10,7 +10,7 @@ public class LeetCode1207_UniqueOccurrences {
 
         for (int i = 0; i < arr.length; i++) {
             map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
-        }
+        } 
 
         HashSet<Integer> set = new HashSet<>();
 
